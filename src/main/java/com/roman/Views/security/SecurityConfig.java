@@ -60,7 +60,7 @@ public class SecurityConfig {
             public void addCorsMappings(CorsRegistry registry) {
                 WebMvcConfigurer.super.addCorsMappings(registry);
                 registry.addMapping("/**")
-                        .allowedOrigins("https://roman-frontend.vercel.app/")
+                        .allowedOrigins("http://localhost:3000/")
                         .allowedMethods("*")
                         .allowCredentials(true);
 
