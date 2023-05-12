@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://roman-webservice.onrender.com")
 @RequestMapping("/api/v1/services")
 @RequiredArgsConstructor
 public class ViewsController {
