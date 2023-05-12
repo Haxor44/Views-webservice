@@ -60,7 +60,7 @@ public class SecurityConfig {
             public void addCorsMappings(CorsRegistry registry) {
                 WebMvcConfigurer.super.addCorsMappings(registry);
                 registry.addMapping("/**")
-                        .allowedOrigins("http://localhost:3000/services")
+                        .allowedOrigins("*")
                         .allowedMethods("*")
                         .allowCredentials(true);
 
