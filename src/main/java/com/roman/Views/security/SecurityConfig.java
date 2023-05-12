@@ -60,7 +60,7 @@ public class SecurityConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 WebMvcConfigurer.super.addCorsMappings(registry);
-                registry.addMapping("/**")
+                registry.addMapping("/services")
                         .allowedOrigins("*")
                         .allowedMethods("*")
                         .allowCredentials(true);
