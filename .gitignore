@@ -1,5 +1,11 @@
 HELP.md
+<<<<<<< HEAD
 
+=======
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+>>>>>>> master
 
 ### STS ###
 .apt_generated
